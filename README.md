@@ -11,10 +11,11 @@ Júlia Miranda: jumrcampos@gmail.com<br>
 Henrique Bastos: henrytehboss@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados Lista de Compra Online 
+Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
 
-> Este projeto visa auxiliar seu usuário a realizar uma das atividades básicas mais necessárias, porém para muitos, mais enfadonhas nos dias de hoje, fazer compras em um super mercado. Através de uma interface intuitiva e fácil de usar e de ferramentas que ajudam o usuário a identificar suas necessidades de compras, a intenção é criar um aplicativo que seja indispensável para o consumidor moderno, com a incrível tecnologia a disposição da maioria das pessoas atualmente, não tem porque continuarmos dependendo de abrir e fechar geladeiras e armários, antes de planejarmos, manualmente, cada compra. 
+> A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
+ 
 
 ### 3.MINI-MUNDO Novo<br>
 
@@ -28,10 +29,13 @@ Caso o produto tenha passado de sua validade ou de seu tempo de consumo médio, 
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório do preço de consumo mensal de produtos.
+> O sistema fornecerá os 5 principais relatórios: 
+* Informações gerais dos usuários, com o e-mail, nome, data de nascimento, localização e senha;
+* Lista de produtos comumente comprados por um usuário, contendo o código do produto, o nome dele, o tipo de medida (quantidade, peso ou volume) e a quantidade mínima;
+* Lista de produtos na despensa do usuário, contendo o código do produto, o nome e a quantidade;
+* Lista de produtos comprados pelo usuário, contendo o código do produto, o nome, o tipo de medida, a quantidade comprada, preço e a data da compra; 
+* Estatísticas das compras do usuário, com o código do produto, a quantidade comprada em determinado período e a média do preço para uma unidade de medida do produto.
 
- 
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
 <a href="https://github.com/grupobsi/trab01/blob/master/arquivos/ComprasOnline.xlsx">Tabela</a>

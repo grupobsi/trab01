@@ -19,8 +19,8 @@ Este documento contém a especificação do projeto do banco de dados Lista de C
 
 ### 3.MINI-MUNDO Novo<br>
 
-> Cada usuário possui uma lista de produtos de supermercado (alimentos, produtos de limpeza e de higiene pessoal), que pode conter vários produtos. O produto é armazenado por um código único, seu nome e sua validade. Os usuários são cadastrados pelo e-mail, nome, idade, senha e quantidade de pessoas em sua casa, sendo que o e-mail é único (não existem 2 usuários com o mesmo e-mail). Os produtos podem ser pertencentes a várias listas. Haverá também uma lista com o tempo de consumo médio para cada produto em uma determinada quantidade de pessoas.
-Caso o produto tenha passado de sua validade ou de seu tempo de consumo médio, ele é adicionado a uma lista de compras, sendo armazenados com seu código, nome e status (pendente ou comprado). Caso o produto seja comprado, ele é tirado da lista de compras.
+> Cada usuário possui uma lista de produtos de supermercado (alimentos, produtos de limpeza e de higiene pessoal), que pode conter vários produtos. O produto é armazenado por um código único e seu nome. Os usuários são cadastrados pelo e-mail, nome, idade e senha, sendo que o e-mail é único (não existem 2 usuários com o mesmo e-mail). Os produtos podem ser pertencentes a várias listas. Haverá também uma lista com o tempo de consumo médio para cada produto.
+Caso o produto tenha passado de seu tempo de consumo médio, ele é adicionado a uma lista de compras, sendo armazenados com seu código, nome e status (pendente ou comprado). Caso o produto seja comprado, ele é tirado da lista de compras.
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>

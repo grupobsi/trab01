@@ -46,7 +46,7 @@ Caso o produto tenha passado de seu tempo de consumo médio, ele é adicionado a
         * O protótipo deve possui no mínimo duas relações N para N
         * o mínimo de entidades do modelo conceitual será igual a 5
         
-![Alt text](https://github.com/discipbd1/trab01/blob/master/images/ModeloConceitualListaDeCompras.png?raw=true "Modelo Conceitual")
+![Alt text](https://raw.githubusercontent.com/grupobsi/trab01/master/images/ModeloConceitualListaDeCompras.png "Modelo Conceitual")
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 

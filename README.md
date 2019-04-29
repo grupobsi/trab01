@@ -19,8 +19,10 @@ Este documento contém a especificação do projeto do banco de dados Lista de C
 
 ### 3.MINI-MUNDO Novo<br>
 
-> Cada usuário possui uma lista de produtos de supermercado (alimentos, produtos de limpeza e de higiene pessoal), que pode conter vários produtos. O produto é armazenado por um código único e seu nome. Os usuários são cadastrados pelo e-mail, nome, idade e senha, sendo que o e-mail é único (não existem 2 usuários com o mesmo e-mail). Os produtos podem ser pertencentes a várias listas. Haverá também uma lista com o tempo de consumo médio para cada produto.
-Caso o produto tenha passado de seu tempo de consumo médio, ele é adicionado a uma lista de compras, sendo armazenados com seu código, nome e status (pendente ou comprado). Caso o produto seja comprado, ele é tirado da lista de compras.
+> Cada usuário possui uma lista de produtos de supermercado (alimentos, produtos de limpeza e de higiene pessoal), que pode conter vários produtos, e um estoque com os produtos já comprados e  as quantidades mínimas desejadas. O produto é o conjunto de sua marca e unidade de medida, sendo armazenado por um código único e seu nome. Os usuários são cadastrados pelo e-mail, nome, idade, endereço e senha, sendo que o e-mail é único (não existem 2 usuários com o mesmo e-mail) e será dado um código para cada um. 
+Também haverá o endereço, constituído por CEP, estado, cidade, bairro e rua, e supermercados, constituído por código, nome e endereço. Os usuários podem decidir por ter um supermercado de preferência para suas compras, mas estas podem ser feitas em qualquer um.
+Os produtos podem ser pertencentes a várias listas de diferentes usuários, mas cada usuário só pode ter uma lista. Haverá também duas listas com o tempo de consumo médio para cada produto, uma para o administrador e outra para o usuário cliente.Caso o produto tenha passado de seu tempo de consumo médio, ele é adicionado a uma lista de compras, sendo armazenados com seu código, nome e status (pendente ou comprado). Caso o produto seja comprado, ele é tirado da lista de compras e atualizado no estoque.
+A cada compra, também ;e calculada uma média de cada supermercado para mostrar a preferência dos usuários clientes para o administrador.
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>

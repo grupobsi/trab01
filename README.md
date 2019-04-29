@@ -11,7 +11,7 @@ Júlia Miranda: jumrcampos@gmail.com<br>
 Henrique Bastos: henrytehboss@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados Lista de Compra Online
+>Este documento contém a especificação do projeto do banco de dados Lista de Compra Online
 <br>e motivação da escolha realizada.<br>
 
 > Este projeto visa auxiliar seu usuário a realizar uma das atividades básicas mais necessárias, porém para muitos, mais enfadonhas nos dias de hoje, fazer compras em um super mercado. Através de uma interface intuitiva e fácil de usar e de ferramentas que ajudam o usuário a identificar suas necessidades de compras, a intenção é criar um aplicativo que seja indispensável para o consumidor moderno, com a incrível tecnologia a disposição da maioria das pessoas atualmente, não tem porque continuarmos dependendo de abrir e fechar geladeiras e armários, antes de planejarmos, manualmente, cada compra. 
@@ -33,15 +33,16 @@ Este documento contém a especificação do projeto do banco de dados Lista de C
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO
     
 > O sistema fornecerá os 5 principais relatórios: 
-* Informações gerais dos usuários, com o e-mail, nome, data de nascimento, localização e senha;
-* Lista de produtos comumente comprados por um usuário, contendo o código do produto, o nome dele, o tipo de medida (quantidade, peso ou volume) e a quantidade mínima;
-* Lista de produtos na despensa do usuário, contendo o código do produto, o nome e a quantidade;
-* Lista de produtos comprados pelo usuário, contendo o código do produto, o nome, o tipo de medida, a quantidade comprada, preço e a data da compra; 
-* Estatísticas das compras do usuário, com o código do produto, a quantidade comprada em determinado período e a média do preço para uma unidade de medida do produto.
+>* Informações gerais dos usuários, com o e-mail, nome, data de nascimento, localização e senha;
+>* Lista de produtos comumente comprados por um usuário, contendo o código do produto, o nome dele, o tipo de medida (quantidade, peso ou volume) e a quantidade mínima;
+>* Lista de produtos na despensa do usuário, contendo o código do produto, o nome e a quantidade;
+>* Lista de produtos comprados pelo usuário, contendo o código do produto, o nome, o tipo de medida, a quantidade comprada, preço e a data da compra; 
+>* Estatísticas das compras do usuário, com o código do produto, a quantidade comprada em determinado período e a média do preço para uma unidade de medida do produto.
 
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
-<a href="https://github.com/grupobsi/trab01/blob/master/arquivos/ComprasOnline.xlsx">Tabela</a>
+<a href="https://github.com/grupobsi/trab01/blob/master/arquivos/ComprasOnline.xlsx">Tabela de dados</a>
+<a href="https://github.com/grupobsi/trab01/blob/master/arquivos/ComprasOnlineNormalizada.xlsx">Tabela de dados normalizada</a>
 
 ### 5.MODELO CONCEITUAL<br>
         
@@ -52,9 +53,11 @@ Este documento contém a especificação do projeto do banco de dados Lista de C
     [Tratamento Efetivo]: [Ana Carolina, Pedro Henrique, Emanuel Medeiros, Filipe Ribeiro]
 
 #### 5.2 DECISÕES DE PROJETO
-    [Endereço]: [Optamos por deixar o endereço como uma entidade separada para não sobrecarregar aquelas entidades que o possuíam e tornar mais fácil o nosso trabalho]
+    [Endereço]: [Optamos por deixar o endereço como uma entidade separada para não sobrecarregar aquelas entidades que o possuíam e
+    tornar mais fácil o nosso trabalho]
     
-    [Produto Consumo Médio]: [Optamos por separar as tabelas do cliente e admistrador pois por mais que elas tivessem os mesmos atributos, suas finalidades são diferentes]
+    [Produto Consumo Médio]: [Optamos por separar as tabelas do cliente e admistrador pois por mais que elas tivessem os mesmos
+    atributos, suas finalidades são diferentes]
 
 >## Marco de Entrega 02 em: (17/09/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 

@@ -12,7 +12,7 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados Lista de Compra Online
-<br>e motivação da escolha realizada. <br>
+<br>e motivação da escolha realizada.<br>
 
 > Este projeto visa auxiliar seu usuário a realizar uma das atividades básicas mais necessárias, porém para muitos, mais enfadonhas nos dias de hoje, fazer compras em um super mercado. Através de uma interface intuitiva e fácil de usar e de ferramentas que ajudam o usuário a identificar suas necessidades de compras, a intenção é criar um aplicativo que seja indispensável para o consumidor moderno, com a incrível tecnologia a disposição da maioria das pessoas atualmente, não tem porque continuarmos dependendo de abrir e fechar geladeiras e armários, antes de planejarmos, manualmente, cada compra. 
  
@@ -30,9 +30,7 @@ Este documento contém a especificação do projeto do banco de dados Lista de C
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 <a href="https://github.com/grupobsi/trab01/blob/master/arquivos/ComprasOnline.pdf">Rascunho das Interfaces</a>
-#### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
+#### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO
     
 > O sistema fornecerá os 5 principais relatórios: 
 * Informações gerais dos usuários, com o e-mail, nome, data de nascimento, localização e senha;
@@ -46,36 +44,21 @@ Este documento contém a especificação do projeto do banco de dados Lista de C
 <a href="https://github.com/grupobsi/trab01/blob/master/arquivos/ComprasOnline.xlsx">Tabela</a>
 
 ### 5.MODELO CONCEITUAL<br>
-    A) NOTACAO ENTIDADE RELACIONAMENTO 
-        * Para nosso prótótipo limitaremos o modelo conceitual nas 6 principais entidades do escopo
-        * O protótipo deve possui no mínimo duas relações N para N
-        * o mínimo de entidades do modelo conceitual será igual a 5
         
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/Modelo%20Conceitual%20Trab%20BD1.png "Modelo Conceitual")
-    
-    B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
-    C) QUALIDADE 
-        Garantir que a semântica dos atributos seja clara no esquema
-        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
-        e tuplas falsas
-    
-        
-    
+       
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Lixeira Inteligente]: [Jackson William, Lavinia Corteletti, Thiago Moreira, Vinicius Freitas]
+    [Tratamento Efetivo]: [Ana Carolina, Pedro Henrique, Emanuel Medeiros, Filipe Ribeiro]
 
 #### 5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
+    [Endereço]: [Optamos por deixar o endereço como uma entidade separada para não sobrecarregar aquelas entidades que o possuíam e tornar mais fácil o nosso trabalho]
     
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+    [Produto Consumo Médio]: [Optamos por separar as tabelas do cliente e admistrador pois por mais que elas tivessem os mesmos atributos, suas finalidades são diferentes]
 
 >## Marco de Entrega 02 em: (17/09/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
+    [objeto]: []
     
     EXEMPLO:
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>

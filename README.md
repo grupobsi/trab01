@@ -67,43 +67,7 @@ Henrique Bastos: henrytehboss@gmail.com<br>
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
     
-    USUÁRIO: tabela que armazena dados dos usuários do sistema.
-    ID_USUARIO: campo único de identificação do usuário.
-    E-MAIL: campo que armazena o e-mail do usuário, será usado para dar acesso ao sistema.
-    NOME: campo que armazena o nome do usuário.
-    SOBRENOME: armazena o sobrenome do usuário, complementando o campo NOME.
-    DATA DE NASCIMENTO: armazena a data de nascimento do usuário.
-    CEP: campo que armazena o cep do usuario.
-    SENHA: armazena senha do usuário, complementa campo E-MAIL, usados para login.
-    ADMINISTRADOR: campo booleano usado para diferenciar administradores do sistema.
-
-
-    PRODUTO_ESTOQUE: tabela que armazena dados do estoque de compras do usuário.
-    CÓDIGO DO PRODUTO: campo que armazena o código do produto, responsável por sua identificação.
-    QUANTIDADE MÍNIMA: campo que armazena quantidade mínima no estoque (específica de cada produto) pré-estabelecida pelo usuário.
-    QUANTIDADE ATUAL: campo que armazena quantidade atual no estoque (específica de cada produto).
-    USUÁRIO ID: campo que armazena identificação do usuário.
-
-    PRODUTO_COMPRA: tabela que armazena dados relacionados a uma compra do usuário.
-    CÓDIGO: campo que enumera quantidade de compras.
-    CÓDIGO DO PRODUTO: armazena e identifica o produto que está sendo comprado.
-    QUANTIDADE: campo que armazena a quantidade unitária de produtos que está sendo comprado (específico de cada mercadoria).
-    MERCADO COMPRA: - campo que armazena a identificação do supermercado que está fazendo a compra-
-    PREÇO: campo que armazena preço total resultante (específico de cada produto).
-    USUÁRIO ID: campo que identifica o usuário que está fazendo a compra.
-    DATA DE COMPRA: campo que armazena a data de compra.
-
-    PRODUTO_MARCA: tabela que armazena dados de um produto.
-    CÓDIGO: campo que armazena o código específico de cada produto.
-    NOME: campo que armazena o nome do produto.
-    MARCA: campo que armazena a marca do produto.
-
-    PRODUTO_UNID: tabela que armazena dados específicos (unidade de medida) de um produto.
-    CÓDIGO: campo que identifica o produto.
-    MARCA: campo que identifica a marca do produto.
-    UNIDADE DE MEDIDA: campo que armazena como o produto é medido (unidade de medida).
-    QUANTIDADE: campo complementar ao campo UNIDADE DE MEDIDA, armazena a quantidade numérica de peso ou litro do produto.
-
+[Descrição dos dados](arquivos/Descrição%20dos%20dados.pdf)
 
 ### 6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados

@@ -14,18 +14,18 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 >Este documento contém a especificação do projeto do banco de dados Lista de Compra Online
 <br>e motivação da escolha realizada.<br>
 
-> Este projeto visa auxiliar seu usuário a realizar uma das atividades básicas mais necessárias, porém para muitos, mais enfadonhas nos dias de hoje, fazer compras em um super mercado. Através de uma interface intuitiva e fácil de usar e de ferramentas que ajudam o usuário a identificar suas necessidades de compras, a intenção é criar um aplicativo que seja indispensável para o consumidor moderno, com a incrível tecnologia a disposição da maioria das pessoas atualmente, não tem porque continuarmos dependendo de abrir e fechar geladeiras e armários, antes de planejarmos, manualmente, cada compra. 
- 
+>O projeto visa auxiliar o usuário a realizar uma das atividades básicas mais necessárias, porém para muitos, mais enfadonhas nos dias de hoje, fazer compras em supermercado. Com a incrível tecnologia a disposição da maioria das pessoas atualmente, não tem porque continuarmos dependendo de abrir e fechar geladeiras e armários, antes de planejarmos, manualmente, cada compra. A intenção é criar um aplicativo que seja indispensável para o consumidor moderno, através de uma interface intuitiva, fácil de usar e de ferramentas que ajudam o consumidor a identificar suas necessidades de compras. 
 
-### 3.MINI-MUNDO Novo<br>
 
-> Cada usuário possui uma lista de produtos de supermercado (alimentos, produtos de limpeza e de higiene pessoal), que pode conter vários produtos, e um estoque com os produtos já comprados e  as quantidades mínimas desejadas. O produto é o conjunto de sua marca e unidade de medida, sendo armazenado por um código único e seu nome. Os usuários são cadastrados pelo e-mail, nome, idade, endereço e senha, sendo que o e-mail é único (não existem 2 usuários com o mesmo e-mail) e será dado um código para cada um. 
+### 3.MINI-MUNDO<br>
 
->Também haverá o endereço, constituído por CEP, estado, cidade, bairro e rua, e supermercados, constituído por código, nome e endereço. Os usuários podem decidir por ter um supermercado de preferência para suas compras, mas estas podem ser feitas em qualquer um.
+>Cada usuário possui uma lista de produtos de supermercado (alimentos, produtos de limpeza e de higiene pessoal), que pode conter vários produtos, e um estoque com os produtos já comprados e  as quantidades mínimas desejadas. O produto é o conjunto de sua marca e unidade de medida, sendo armazenado por um código único e seu nome. Para utilizar o sistema o usuário deverá se cadastrar informando e-mail, nome e sobrenome, data de nascimento, endereço e senha, sendo que o e-mail é único (não existem 2 usuários com o mesmo e-mail). Cada usuário será identificado por um código único.
 
->Os produtos podem ser pertencentes a várias listas de diferentes usuários, mas cada usuário só pode ter uma lista. Haverá também duas listas com o tempo de consumo médio para cada produto, uma para o administrador e outra para o usuário cliente.Caso o produto tenha passado de seu tempo de consumo médio, ele é adicionado a uma lista de compras, sendo armazenados com seu código, nome e status (pendente ou comprado). Caso o produto seja comprado, ele é tirado da lista de compras e atualizado no estoque.
+>O endereço é constituído por CEP, estado, cidade, bairro e rua. Supermercados contém código, nome e endereço. Os usuários podem decidir por ter um supermercado de preferência para suas compras, comparar suas listas em outros supermercados e até cadastrar um.
 
->A cada compra, também ;e calculada uma média de cada supermercado para mostrar a preferência dos usuários clientes para o administrador.
+>Os produtos podem ser pertencentes a várias listas de diferentes usuários, mas cada usuário só pode ter uma lista. Haverá também duas listas com o tempo de consumo médio para cada produto, uma para o administrador e outra para o usuário cliente. Caso o produto tenha passado de seu tempo de consumo médio, ele é adicionado a uma lista de compras, sendo armazenados com seu código, nome e status (pendente ou comprado). Caso o produto seja comprado, ele é tirado da lista de compras e atualizado no estoque.
+
+>O administrador tem acesso a quantidade de clientes que estão ativos no sistema além de dados estatísticos de preferências do usuários, sendo produtos e supermercados.
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
@@ -33,20 +33,20 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO
     
 > O sistema fornecerá os 5 principais relatórios: 
->* Informações gerais dos usuários, com o e-mail, nome, data de nascimento, localização e senha;
->* Lista de produtos comumente comprados por um usuário, contendo o código do produto, o nome dele, o tipo de medida (quantidade, peso ou volume) e a quantidade mínima;
->* Lista de produtos na despensa do usuário, contendo o código do produto, o nome e a quantidade;
->* Lista de produtos comprados pelo usuário, contendo o código do produto, o nome, o tipo de medida, a quantidade comprada, preço e a data da compra; 
->* Estatísticas das compras do usuário, com o código do produto, a quantidade comprada em determinado período e a média do preço para uma unidade de medida do produto.
+>* Informações gerais dos usuários, com o e-mail, nome e sobrenome, data de nascimento, localização e senha;
+>* Lista de produtos comumente comprados por um usuário, contendo o código do produto, nome, tipo de medida (quantidade, peso ou volume) e quantidade mínima;
+>* Lista de produtos na despensa do usuário, contendo o código do produto, nome e quantidade;
+>* Lista de produtos comprados pelo usuário, contendo o código do produto, nome, tipo de medida, quantidade comprada, preço e data da compra; 
+>* Estatísticas das compras do usuário, com o código do produto, quantidade comprada em determinado período e média do preço para uma unidade de medida do produto.
 
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
-<a href="https://github.com/grupobsi/trab01/blob/master/arquivos/ComprasOnline.xlsx">Tabela de dados</a>
-<a href="https://github.com/grupobsi/trab01/blob/master/arquivos/ComprasOnlineNormalizada.xlsx">Tabela de dados normalizada</a>
+><a href="https://github.com/grupobsi/trab01/blob/master/arquivos/ComprasOnline.xlsx">Tabela de dados</a>
+><a href="https://github.com/grupobsi/trab01/blob/master/arquivos/ComprasOnlineNormalizada.xlsx">Tabela de dados normalizada</a>
 
 ### 5.MODELO CONCEITUAL<br>
         
-![Alt text](https://github.com/grupobsi/trab01/blob/master/images/Modelo%20Conceitual%20Trab%20BD1.png "Modelo Conceitual")
+>![Alt text](https://github.com/grupobsi/trab01/blob/master/images/Modelo%20Conceitual%20Trab%20BD1.png "Modelo Conceitual")
        
 #### 5.1 Validação do Modelo Conceitual
     [Lixeira Inteligente]: [Jackson William, Lavinia Corteletti, Thiago Moreira, Vinicius Freitas]

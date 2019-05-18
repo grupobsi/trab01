@@ -2,8 +2,8 @@
 
 CREATE TABLE PRODUTO_MARCA ( 
 	codigo INT, 
-	nome VARCHAR(20), 
- 	marca VARCHAR(20), 
+	nome VARCHAR(50), 
+ 	marca VARCHAR(50), 
   	PRIMARY KEY (codigo));
 
 CREATE TABLE PRODUTO_UNID ( 
@@ -15,24 +15,25 @@ CREATE TABLE PRODUTO_UNID (
 	FOREIGN KEY (marca_fk) REFERENCES PRODUTO_MARCA(codigo));
 
 CREATE TABLE ENDERECO ( 
-	cep INT, 
+	id_endereco SERIAL,
+	cep VARCHAR(10), 
 	estado CHAR(2), 
 	cidade VARCHAR(30), 
-	bairro VARCHAR(30), 
-	rua VARCHAR(30), 
-	PRIMARY KEY (cep));
+	bairro VARCHAR(50), 
+	rua VARCHAR(50), 
+	PRIMARY KEY (id_endereco));
 
 CREATE TABLE USUARIO ( 
 	id_usuario INT, 
-	email VARCHAR(50), 
+	email VARCHAR(70), 
 	nome VARCHAR(20), 
-	sobrenome VARCHAR(20), 
+	sobrenome VARCHAR(40), 
 	dat_nascimento DATE, 
 	endereco_cep_fk INT, 
 	senha VARCHAR(20), 
 	administrador BOOL, 
 	PRIMARY KEY (id_usuario), 
-	FOREIGN KEY (endereco_cep_fk) REFERENCES ENDERECO(cep));
+	FOREIGN KEY (endereco_id_fk) REFERENCES ENDERECO(id_endereco));
 
 CREATE TABLE PRODUTO_ESTOQUE ( 
 	cod_produto_fk INT, 
@@ -43,10 +44,11 @@ CREATE TABLE PRODUTO_ESTOQUE (
 	FOREIGN KEY (usuario_id_fk) REFERENCES USUARIO(id_usuario));
 
 CREATE TABLE SUPERMERCADO ( 
-	codigo INT, nome VARCHAR(20), 
-	endereco_cep_fk INT, 
+	codigo INT, 
+	nome VARCHAR(20), 
+	endereco_id_fk INT, 
 	PRIMARY KEY (codigo), 
-	FOREIGN KEY (endereco_cep_fk) REFERENCES ENDERECO(cep));
+	FOREIGN KEY (endereco_id_fk) REFERENCES ENDERECO(id_endereco));
 
 CREATE TABLE PRODUTO_COMPRA ( 
 	codigo INT, 

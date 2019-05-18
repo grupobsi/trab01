@@ -29,7 +29,7 @@ CREATE TABLE USUARIO (
 	nome VARCHAR(20), 
 	sobrenome VARCHAR(40), 
 	dat_nascimento DATE, 
-	endereco_cep_fk INT, 
+	endereco_id_fk INT, 
 	senha VARCHAR(20), 
 	administrador BOOL, 
 	PRIMARY KEY (id_usuario), 

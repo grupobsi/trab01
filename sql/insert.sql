@@ -20,6 +20,7 @@ INSERT INTO produto_unid(codigo, marca_fk, unidade_med, quant) VALUES (8, 8, 'kg
 INSERT INTO produto_unid(codigo, marca_fk, unidade_med, quant) VALUES (9, 9, 'l', 2);
 INSERT INTO produto_unid(codigo, marca_fk, unidade_med, quant) VALUES (10, 10, 'unid', 3);
 
+ALTER SEQUENCE endereco_id_endereco_seq RESTART WITH 1;
 INSERT INTO endereco(cep,estado,cidade,bairro,rua) VALUES ('29165-491', 'ES', 'Serra', 'Parque Residencial Laranjeiras', 'Rua Afonso Arinos Melo Franco');
 INSERT INTO endereco (cep,estado,cidade,bairro,rua) VALUES ('29165-360', 'ES', 'Serra', 'Parque Residencial Laranjeiras', 'Rua Almirante Tamandaré');
 INSERT INTO endereco(cep,estado,cidade,bairro,rua) VALUES ('29165-800', 'ES', 'Serra', 'Valparaíso', 'Avenida Iriri');
@@ -40,7 +41,7 @@ INSERT INTO produto_estoque VALUES (9, 2, 2, 4);
 INSERT INTO produto_estoque VALUES (8, 1, 0, 2);
 
 INSERT INTO supermercado VALUES (0, 'Perim', 4);
-INSERT INTO supermercado VALUES (1, 'ExtraBom', 0);
+INSERT INTO supermercado VALUES (1, 'ExtraBom', 1);
 
 INSERT INTO produto_compra VALUES (1, 1, 1,	0, 14.99, 1, '2019-05-21');
 INSERT INTO produto_compra VALUES (2, 3, 1,	1, 8.49, 2, '2019-07-22');

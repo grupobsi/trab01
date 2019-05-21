@@ -78,6 +78,7 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico 
         b) formato .SQL
+[Inserção dos dados](sql/insert.sql)  
     
 >## Marco de Entrega 04 em: (07/05/2019) <br>
 

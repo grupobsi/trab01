@@ -54,3 +54,14 @@ INSERT INTO mensagens_administrador VALUES (4, '[...]Texto 4[...]', 5);
 
 INSERT INTO supermercado_preferencia_administrador VALUES (1, 10, '2019-03-01',	'2019-03-31');
 INSERT INTO supermercado_preferencia_administrador VALUES (0, 12, '2019-04-01',	'2019-04-30');
+
+INSERT INTO produto_consumo_medio_administrador VALUES(1, 7, '2019-03-01', '2019-03-31', 1);
+INSERT INTO produto_consumo_medio_administrador VALUES(5, 8, '2019-02-01', '2019-02-28', 2);
+INSERT INTO produto_consumo_medio_administrador VALUES(4, 4, '2019-04-01', '2019-04-30', 4);
+INSERT INTO produto_consumo_medio_administrador VALUES(9, 6, '2019-05-01', '2019-05-31', 5);
+
+INSERT INTO produto_consumo_medio_cliente VALUES(1, 7, '2019-03-01', '2019-03-31', 1);
+INSERT INTO produto_consumo_medio_cliente VALUES(5, 8, '2019-02-01', '2019-02-28', 2);
+INSERT INTO produto_consumo_medio_cliente VALUES(4, 4, '2019-04-01', '2019-04-30', 4);
+INSERT INTO produto_consumo_medio_cliente VALUES(9, 6, '2019-05-01', '2019-05-31', 5);
+

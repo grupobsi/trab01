@@ -61,23 +61,16 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 
 >## Marco de Entrega 02 em: (30/04/2019)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: []
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-    
+
 [Descrição dos dados](arquivos/Descrição%20dos%20dados.pdf)
 
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do modelo lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+
+[Descrição dos dados](images/ModeloLogico.png)
 
 ### 7	MODELO FÍSICO<br>
-[Estrutura DDL](sql/DDL.sql)
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)    
+
+[Estrutura DDL](sql/DDL.sql)  
         
 >## Marco de Entrega 03 em: (06/05/2019) <br>
         

@@ -66,7 +66,7 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 
 ### 6	MODELO LÓGICO<br>
 
-[Descrição dos dados](images/ModeloLogico.png)
+[Modelo Lógico](images/ModeloLogico.png)
 
 ### 7	MODELO FÍSICO<br>
 

@@ -1,0 +1,1 @@
+SELECT * FROM PRODUTO_ESTOQUE WHERE qnt_minima > qnt_atual;

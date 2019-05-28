@@ -1,0 +1,1 @@
+SELECT * FROM ENDERECO WHERE cidade = 'Serra';

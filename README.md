@@ -111,51 +111,51 @@ Henrique Bastos: henrytehboss@gmail.com<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
-> [ENDERECO](sql/consultas/endereco.sql)
+> [ENDERECO](sql/consultas/endereco.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/end1.PNG "ENDERECO")
 
-> [MENSAGENS_ADMINISTRADOR](sql/consultas/mensagens_administrador.sql)
+> [MENSAGENS_ADMINISTRADOR](sql/consultas/mensagens_administrador.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/msg_adm1.PNG "MENSAGENS_ADMINISTRADOR")
 
-> [PRODUTO_COMPRA](sql/consultas/produto_compra.sql)
+> [PRODUTO_COMPRA](sql/consultas/produto_compra.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/prod_compr1.PNG "PRODUTO_COMPRA")
 
-> [PRODUTO_CONSUMO_MEDIO_ADMINISTRADOR](sql/consultas/produto_consumo_medio_administrador.sql)
+> [PRODUTO_CONSUMO_MEDIO_ADMINISTRADOR](sql/consultas/produto_consumo_medio_administrador.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/cons_adm1.PNG "PRODUTO_CONSUMO_MEDIO_ADMINISTRADOR")
 
-> [PRODUTO_CONSUMO_MEDIO_CLIENTE](sql/consultas/produto_consumo_medio_cliente.sql)
+> [PRODUTO_CONSUMO_MEDIO_CLIENTE](sql/consultas/produto_consumo_medio_cliente.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/cons_cli1.PNG "PRODUTO_CONSUMO_MEDIO_CLIENTE")
 
-> [PRODUTO_ESTOQUE](sql/consultas/produto_estoque.sql)
+> [PRODUTO_ESTOQUE](sql/consultas/produto_estoque.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/prod_est1.PNG "PRODUTO_ESTOQUE")
 
-> [PRODUTO_MARCA](sql/consultas/produto_marca.sql)
+> [PRODUTO_MARCA](sql/consultas/produto_marca.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/prod_marca1.PNG "PRODUTO_MARCA")
 
-> [PRODUTO_UNID](sql/consultas/produto_unid.sql)
+> [PRODUTO_UNID](sql/consultas/produto_unid.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/prod_unid1.PNG "PRODUTO_UNID")
 
-> [SUPERMERCADO](sql/consultas/supermercado.sql)
+> [SUPERMERCADO](sql/consultas/supermercado.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/super1.PNG "SUPERMERCADO")
 
-> [SUPERMERCADO_PREFERENCIA_ADMINISTRADOR](sql/consultas/supermercado_preferencia_administrador.sql)
+> [SUPERMERCADO_PREFERENCIA_ADMINISTRADOR](sql/consultas/supermercado_preferencia_administrador.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/super_pref1.PNG "SUPERMERCADO_PREFERENCIA_ADMINISTRADOR")
 
-> [USUARIO](sql/consultas/usuario.sql)
+> [USUARIO](sql/consultas/usuario.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/usu1.PNG "USUARIO")
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
-> [ENDERECO com where](sql/consultas/enderecoW.sql)
+> [ENDERECO com where](sql/consultas/enderecoW.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/end2.PNG "ENDERECO com where")
 
-> [PRODUTO_ESTOQUE com where](sql/consultas/produto_estoqueW.sql)
+> [PRODUTO_ESTOQUE com where](sql/consultas/produto_estoqueW.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/prod_est2.PNG "PRODUTO_ESTOQUE com where")
 
-> [PRODUTO_UNID com where](sql/consultas/produto_unidW.sql)
+> [PRODUTO_UNID com where](sql/consultas/produto_unidW.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/prod_unid2.PNG "PRODUTO_UNID com where")
 
-> [USUARIO com where](sql/consultas/usuarioW.sql)
+> [USUARIO com where](sql/consultas/usuarioW.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/usu2.PNG "USUARIO com where")
 
 >## Marco de Entrega 06 em: (14/05/2019) <br>

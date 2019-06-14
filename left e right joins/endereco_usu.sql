@@ -1,0 +1,2 @@
+SELECT * FROM USUARIO 
+LEFT OUTER JOIN ENDERECO ON (USUARIO.endereco_id_fk = ENDERECO.id_endereco);

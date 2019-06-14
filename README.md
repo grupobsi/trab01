@@ -218,8 +218,8 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 > [USUARIO_com_age](sql/consultas/USUARIO_com_age.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/18.PNG "USUARIO_com_age")
 
-> [PRODUTO_COMPRA_com_age](sql/consultas/PRODUTO_COMPRA_com_age.sql)<br>
-![Alt text](https://github.com/grupobsi/trab01/blob/master/images/19.PNG "PRODUTO_COMPRA_com_age")
+> [PRODUTO_COMPRA_com_date_part](sql/consultas/PRODUTO_COMPRA_com_date_part.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/19.PNG "PRODUTO_COMPRA_com_date_part")
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 

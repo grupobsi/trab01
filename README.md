@@ -161,9 +161,40 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 >## Marco de Entrega 06 em: (14/05/2019) <br>
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
-    a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
-    b) Criar no mínimo 3 consultas com operadores aritméticos 
-    c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+
+> [PRODUTO_COMPRA com and](sql/consultas/produto_compra_lógico_01.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/1.PNG "PRODUTO_COMPRA com and")
+
+> [PRODUTO_ESTOQUE com or](sql/consultas/produto_estoque_lógico_02.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/2.PNG "PRODUTO_ESTOQUE com or")
+
+> [PRODUTO_MARCA com not null](sql/consultas/produto_marca_lógico_03.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/3.PNG "PRODUTO_MARCA com not null")
+
+> [ENDERECO com and](sql/consultas/endere_lógico_04.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/4.PNG "ENDERECO com and")
+
+> [PRODUTO_COMPRA com and_02](sql/consultas/produto_compra_lógico_05.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/5.PNG "PRODUTO_COMPRA com and_02")
+
+> [PRODUTO_COMPRA com multiplicacao](sql/consultas/produto_compra_arit_01.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/6.PNG "PRODUTO_COMPRA com multiplicacao")
+
+> [PRODUTO_COMPRA com multiplicacao_02](sql/consultas/produto_compra_arit_02.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/7.PNG "PRODUTO_COMPRA com multiplicacao_02")
+
+> [PRODUTO_ESTOQUE com subtracao](sql/consultas/produto_estoque_arit_03.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/8.PNG "PRODUTO_ESTOQUE com subtracao")
+
+> [ESTOQUE_MARCA_join_as](sql/consultas/estoque_marca_join_as_01.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/9.PNG "ESTOQUE_MARCA_join_as")
+
+> [PRODUTO_MARCA_as](sql/consultas/produto-marca_as_02.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/10.PNG "PRODUTO_MARCA_as")
+
+> [PRODUTO_MARCA_as_02](sql/consultas/produto_marca_as_03.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/11.PNG "PRODUTO_MARCA_as_02")
+
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.

@@ -39,13 +39,26 @@ INSERT INTO produto_estoque VALUES (3, 3, 2, 2);
 INSERT INTO produto_estoque VALUES (6, 1, 1, 3);
 INSERT INTO produto_estoque VALUES (9, 2, 2, 4);
 INSERT INTO produto_estoque VALUES (8, 1, 0, 2);
+INSERT INTO produto_estoque VALUES (4, 4, 0, 1);
+INSERT INTO produto_estoque VALUES (2, 1, 3, 4);
+INSERT INTO produto_estoque VALUES (5, 2, 3, 3);
+INSERT INTO produto_estoque VALUES (7, 1, 0, 1);
+INSERT INTO produto_estoque VALUES (8, 1, 4, 4);
 
 INSERT INTO supermercado VALUES (0, 'Perim', 4);
 INSERT INTO supermercado VALUES (1, 'ExtraBom', 1);
+INSERT INTO supermercado VALUES (2, 'Carone', 3);
 
 INSERT INTO produto_compra VALUES (1, 1, 1,	0, 14.99, 1, '2019-05-21');
 INSERT INTO produto_compra VALUES (2, 3, 1,	1, 8.49, 2, '2019-07-22');
-INSERT INTO produto_compra VALUES (3, 8, 1,	1, 17.99, 2, '2019-09-23');
+INSERT INTO produto_compra VALUES (3, 8, 1,	1, 17.99, 3, '2019-09-23');
+INSERT INTO produto_compra VALUES (4, 2, 3,	2, 5.99, 4, '2019-02-24');
+INSERT INTO produto_compra VALUES (5, 3, 1,	2, 7.99, 3, '2019-09-23');
+INSERT INTO produto_compra VALUES (6, 4, 2,	1, 1.99, 2, '2019-09-23');
+INSERT INTO produto_compra VALUES (7, 5, 4,	0, 15.99, 1, '2019-03-23');
+INSERT INTO produto_compra VALUES (8, 6, 6,	1, 3.99, 2, '2019-09-03');
+INSERT INTO produto_compra VALUES (9, 7, 8,	0, 20.99, 3, '2019-01-13');
+INSERT INTO produto_compra VALUES (10, 8, 11, 2, 6.99, 4, '2019-02-21');
 
 INSERT INTO mensagens_administrador VALUES (1, '[...]Texto 1[...]', 1);
 INSERT INTO mensagens_administrador VALUES (2, '[...]Texto 2[...]', 5);

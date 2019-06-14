@@ -197,29 +197,29 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
 
-> [USUARIO com ilike](sql/consultas/USUARIO com ilike.sql)<br>
-![Alt text](https://github.com/grupobsi/trab01/blob/master/images/12.PNG "USUARIO com ilike")
+> [USUARIO_com_ilike](sql/consultas/USUARIO_com_ilike.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/12.PNG "USUARIO_com_ilike")
 
-> [ENDERECO com like](sql/consultas/ENDERECO com like.sql)<br>
-![Alt text](https://github.com/grupobsi/trab01/blob/master/images/13.PNG "ENDERECO com like")
+> [ENDERECO_com_like](sql/consultas/ENDERECO_com_like.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/13.PNG "ENDERECO_com_like")
 
-> [USUARIO com like](sql/consultas/USUARIO com like.sql)<br>
-![Alt text](https://github.com/grupobsi/trab01/blob/master/images/14.PNG "USUARIO com like")
+> [USUARIO_com_like](sql/consultas/USUARIO_com_like.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/14.PNG "USUARIO_com_like")
 
-> [USUARIO com like 02](sql/consultas/USUARIO com like 02.sql)<br>
-![Alt text](https://github.com/grupobsi/trab01/blob/master/images/15.PNG "USUARIO com like 02")
+> [USUARIO_com_like_02](sql/consultas/USUARIO_com_like_02.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/15.PNG "USUARIO_com_like_02")
 
-> [PRODUTO_MARCA com like](sql/consultas/PRODUTO_MARCA com like.sql)<br>
-![Alt text](https://github.com/grupobsi/trab01/blob/master/images/16.PNG "PRODUTO_MARCA com like")
+> [PRODUTO_MARCA_com_like](sql/consultas/PRODUTO_MARCA_com_like.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/16.PNG "PRODUTO_MARCA_com_like")
 
-> [SUPERMERCADO PREFERENCIA ADMINISTRADOR com age](sql/consultas/SUPERMERCADO PREFERENCIA ADMINISTRADOR com age.sql)<br>
-![Alt text](https://github.com/grupobsi/trab01/blob/master/images/17.PNG "SUPERMERCADO PREFERENCIA ADMINISTRADOR com age")
+> [SUPERMERCADO_PREFERENCIA_ADMINISTRADOR_com_age](sql/consultas/SUPERMERCADO_PREFERENCIA_ADMINISTRADOR_com_age.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/17.PNG SUPERMERCADO_PREFERENCIA_ADMINISTRADOR_com_age")
 
-> [USUARIO com age](sql/consultas/USUARIO com age.sql)<br>
-![Alt text](https://github.com/grupobsi/trab01/blob/master/images/18.PNG "USUARIO com age")
+> [USUARIO_com_age](sql/consultas/USUARIO_com_age.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/18.PNG "USUARIO_com_age")
 
-> [PRODUTO COMPRA com age](sql/consultas/PRODUTO COMPRA com age.sql)<br>
-![Alt text](https://github.com/grupobsi/trab01/blob/master/images/19.PNG "PRODUTO COMPRA com age")
+> [PRODUTO_COMPRA_com_age](sql/consultas/PRODUTO_COMPRA_com_age.sql)<br>
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/19.PNG "PRODUTO_COMPRA_com_age")
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 

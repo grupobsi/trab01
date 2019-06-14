@@ -213,7 +213,7 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/16.PNG "PRODUTO_MARCA_com_like")
 
 > [SUPERMERCADO_PREFERENCIA_ADMINISTRADOR_com_age](sql/consultas/SUPERMERCADO_PREFERENCIA_ADMINISTRADOR_com_age.sql)<br>
-![Alt text](https://github.com/grupobsi/trab01/blob/master/images/17.PNG SUPERMERCADO_PREFERENCIA_ADMINISTRADOR_com_age")
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/17.PNG "SUPERMERCADO_PREFERENCIA_ADMINISTRADOR_com_age")
 
 > [USUARIO_com_age](sql/consultas/USUARIO_com_age.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/18.PNG "USUARIO_com_age")

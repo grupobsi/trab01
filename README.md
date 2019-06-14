@@ -171,7 +171,7 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 > [PRODUTO_MARCA com not null](sql/consultas/produto_marca_lógico_03.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/3.PNG "PRODUTO_MARCA com not null")
 
-> [ENDERECO com and](sql/consultas/endere_lógico_04.sql)<br>
+> [ENDERECO com and](sql/consultas/endere_logico_04.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/4.PNG "ENDERECO com and")
 
 > [PRODUTO_COMPRA com and_02](sql/consultas/produto_compra_lógico_05.sql)<br>

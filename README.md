@@ -118,7 +118,7 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/msg_admC.PNG "MENSAGENS_ADMINISTRADOR")
 
 > [PRODUTO_COMPRA](sql/consultas/produto_compra.sql)<br>
-![Alt text](https://github.com/grupobsi/trab01/blob/master/images/prod_compC.PNG "PRODUTO_COMPRA")
+![Alt text](https://github.com/grupobsi/trab01/blob/master/images/prod_comC.PNG "PRODUTO_COMPRA")
 
 > [PRODUTO_CONSUMO_MEDIO_ADMINISTRADOR](sql/consultas/produto_consumo_medio_administrador.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/cons_medC.PNG "PRODUTO_CONSUMO_MEDIO_ADMINISTRADOR")
@@ -227,21 +227,22 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
 
-> [Join com as tabelas principais](sql/joins e orders/joinzao.sql)<br>
+> [Join principal](sql/joins e orders/joinzao.sql)<br>
+![Alt text]
 
-> [PRODUTO_COMPRA com PRODUTO_MARCA e PRODUTO_UNID](sql/joins e orders/compra.sql)<br>
+> [PRODUTO_COMPRA](sql/joins e orders/compra.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/compraJ.PNG "PRODUTO_COMPRA com PRODUTO_MARCA e PRODUTO_UNID")
 
-> [PRODUTO_ESTOQUE com PRODUTO_MARCA e PRODUTO_UNID](sql/joins e orders/estoque.sql)<br>
+> [PRODUTO_ESTOQUE](sql/joins e orders/estoque.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/estoqueJ.PNG "PRODUTO_ESTOQUE com PRODUTO_MARCA e PRODUTO_UNID")
 
-> [MENSAGENS_ADMINISTRADOR com USUARIO](sql/joins e orders/mensagem.sql)<br>
+> [MENSAGENS_ADMINISTRADOR](sql/joins e orders/mensagem.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/mensagemJ.PNG "MENSAGENS_ADMINISTRADOR com USUARIO")
 
-> [SUPERMERCADO com ENDERECO](sql/joins e orders/supermercado.sql)<br>
+> [SUPERMERCADO](sql/joins e orders/supermercado.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/superJ.PNG "SUPERMERCADO com ENDERECO")
 
-> [USUARIO com ENDERECO](sql/joins e orders/usuario.sql)<br>
+> [USUARIO](sql/joins e orders/usuario.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/usuJ.PNG "USUARIO com ENDERECO")
 
 
@@ -269,16 +270,16 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 
-> [PRODUTO_COMPRA RIGHT OUTER JOIN](sql/left e right joins/compras.sql)<br>
+> [PRODUTO_COMPRA](sql/left e right joins/compras.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/compraLRJ.PNG "PRODUTO_COMPRA RIGHT OUTER JOIN")
 
-> [SUPERMERCADO RIGHT OUTER JOIN](sql/left e right joins/endereco_super.sql)<br>
+> [SUPERMERCADO](sql/left e right joins/endereco_super.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/super_endLRJ.PNG "SUPERMERCADO RIGHT OUTER JOIN")
 
-> [USUARIO LEFT OUTER JOIN](sql/left e right joins/endereco_usu.sql)<br>
+> [USUARIO](sql/left e right joins/endereco_usu.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/usu_endLRJ.PNG "USUARIO LEFT OUTER JOIN")
 
-> [USUARIO LEFT OUTER JOIN outro](sql/left e right joins/mensagem.sql)<br>
+> [USUARIO](sql/left e right joins/mensagem.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/mensagemLRJ.PNG "USUARIO LEFT OUTER JOIN outro")
 
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>

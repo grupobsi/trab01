@@ -59,7 +59,6 @@ Henrique Bastos: henrytehboss@gmail.com<br>
     [Produto Consumo Médio]: [Optamos por separar as tabelas do cliente e admistrador pois por mais que elas tivessem os mesmos
     atributos, suas finalidades são diferentes]
 
->## Marco de Entrega 02 em: (30/04/2019)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
 
 [Descrição dos dados](arquivos/Descrição%20dos%20dados.pdf)
@@ -72,43 +71,33 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 
 [Estrutura DDL](sql/DDL.sql)  
         
->## Marco de Entrega 03 em: (06/05/2019) <br>
-        
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico 
-        b) formato .SQL
 [Inserção dos dados](sql/insert.sql)  
     
 >## Marco de Entrega 04 em: (07/05/2019) <br>
 
-#### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
-        a) Junção dos scripts anteriores em um único script 
-        (create para tabelas e estruturas de dados + dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
+#### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADO
         
  [Script 1](sql/script1.sql)  
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
-        a) Junção dos scripts anteriores em um único script
-        (Drop para exclusão de tabelas + create para tabelas e estruturas de dados + dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
 
 [Script 2](sql/script2.sql) 
 
 #### 8.4 Principais fluxos de informação e principais tabelas do sistema
-        a) Quais os principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3)
-        b) Quais as tabelas que conterão mais dados no sistema em densenvolvimento (mínimo 3)
-        c) informe quais as 5 principais tabelas do sistema em densenvolvimento.
 
->## Marco de Entrega 05 em: (13/05/2019) <br>
+> Os principais fluxos de informação estão entre o PRODUTO_COMPRA/PRODUTO_UNID/USUARIO/SUPERMERCADO, PRODUTO_ESTOQUE/PRODUTO_UNID/USUARIO e PRODUTO_MARCA/PRODUTO_UNID.
+> As tabelas que terão mais dados serão as de PRODUTO_COMPRA, PRODUTO_ESTOQUE, USUARIO.
+> As 5 principais tabelas serão:
+> - PRODUTO_UNID;
+> - USUARIO;
+> - PRODUTO_ESTOQUE;
+> - PRODUTO_COMPRA;
+> - ENDERECO.
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
-    OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
+
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 > [ENDERECO](sql/consultas/endereco.sql)<br>
@@ -158,7 +147,6 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 > [USUARIO com where](sql/consultas/usuarioW.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/usuW.PNG "USUARIO com where")
 
->## Marco de Entrega 06 em: (14/05/2019) <br>
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
 
@@ -244,9 +232,6 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 > [USUARIO](sql/joins%20e%20orders/usuario.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/usuJ.PNG "USUARIO com ENDERECO")
 
-
->## Marco de Entrega 08 em: (21/05/2019) <br>
- 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 
 > [ENDERECO count(cidade)](sql/group_by/ENDERECO.sql)<br>
@@ -298,11 +283,6 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 > [QNT_ESTOQUE](sql/views/qnt_estoque.sql)<br>
 ![Alt text](https://github.com/grupobsi/trab01/blob/master/images/qnt_estV.PNG "QNT_ESTOQUE")
         
->## Marco de Entrega 09 em: (27/05/2019) <br>     
-     
-#### 9.10	SUBCONSULTAS (Mínimo 3)<br>
-
->## Marco de Entrega 10 em: (28/05/2019) <br>
 
 ### 9.11 Relatórios e Gráficos
     a)análises e resultados provenientes do banco de dados

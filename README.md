@@ -32,12 +32,12 @@ Henrique Bastos: henrytehboss@gmail.com<br>
 <a href="https://github.com/grupobsi/trab01/blob/master/arquivos/ComprasOnline.pdf">Rascunho das Interfaces</a>
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO
     
-> O sistema fornecerá os 5 principais relatórios: 
->* Informações gerais dos usuários, com o e-mail, nome e sobrenome, data de nascimento, localização e senha;
->* Lista de produtos comumente comprados por um usuário, contendo o código do produto, nome, tipo de medida (quantidade, peso ou volume) e quantidade mínima;
->* Lista de produtos na despensa do usuário, contendo o código do produto, nome e quantidade;
->* Lista de produtos comprados pelo usuário, contendo o código do produto, nome, tipo de medida, quantidade comprada, preço e data da compra; 
->* Estatísticas das compras do usuário, com o código do produto, quantidade comprada em determinado período e média do preço para uma unidade de medida do produto.
+> O sistema responderá as seguintes perguntas através dos relatórios: 
+>* Quanto um produto pode variar de preço?
+>* Qual é a marca mais vendida?
+>* Quanto uma pessoa geralmente gasta por compra?
+>* Em qual supermercado acontecem mais compras (qual supermercado tem melhores preços)? 
+>* Qual estado tem mais usuários?
 
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:

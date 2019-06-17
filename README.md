@@ -285,11 +285,14 @@ Henrique Bastos: henrytehboss@gmail.com<br>
         
 
 ### 9.11 Relatórios e Gráficos
-    a)análises e resultados provenientes do banco de dados
+
+> <a href="https://colab.research.google.com/drive/1tQYS5lTATPNVleWZMFYxdwVTbSp3NJnn?fbclid=IwAR0hehDxLy-8i9mI62R0KZ3Hv196NEl29KmqhNS6jbTDxRfHtyf6qz2gCC8#scrollTo=ptxmn-0jFOBP">Relatório</a>
     
 >## Marco de Entrega 11 em: (04/06/2019) <br>    
     
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
+
+> [Apresentação de slides](arquivos/Trabalho%2001_ Lista%20de%20compras%20inteligente.pdf)<br>
 
 ### 11 Backup completo do banco de dados postgres 
     a) deve ser realizado no formato "backup" 

@@ -292,7 +292,7 @@ Henrique Bastos: henrytehboss@gmail.com<br>
     
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
-> [Apresentação de slides](arquivos/Trabalho%2001_ Lista%20de%20compras%20inteligente.pdf)<br>
+> [Apresentação de slides](arquivos/Trabalho%2001_%20Lista%20de%20compras%20inteligente.pdf)<br>
 
 ### 11 Backup completo do banco de dados postgres 
     a) deve ser realizado no formato "backup" 
